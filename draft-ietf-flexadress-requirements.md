@@ -1,13 +1,13 @@
 ---
-title: Operational Considerations for Streaming Media
-abbrev: Media Streaming Ops
-docname: draft-ietf-mops-streaming-opcons-03
-date: 2020-11-01
+title: Requirements Considerations for Flexible IoT Device Addressing 
+abbrev: FlexAddr 
+docname: draft-ietf-flexaddress-requirements-latest
+date: 2021-04-25
 category: info
 
 ipr: trust200902
-area: OPS
-workgroup: MOPS
+area: INTAREA
+workgroup: open
 keyword: Internet-Draft
 
 stand_alone: yes
@@ -15,25 +15,13 @@ pi: [toc, sortrefs, symrefs]
 
 author:
  -
-    ins: J. Holland
-    name: Jake Holland
-    org: Akamai Technologies, Inc.
-    street: 150 Broadway
-    city: Cambridge, MA 02144
+    ins: K. Makhijani
+    name: Kiran Makhijani
+    org: Futurewei Technologies, Inc.
+    street: Central Expy
+    city: Santa Clara, CA 95050
     country: United States of America
-    email: jakeholland.net@gmail.com
- -
-    ins: A. Begen
-    name: Ali Begen
-    org: Networked Media
-    country: Turkey
-    email: ali.begen@networked.media
- -
-    ins: S. Dawkins
-    name: Spencer Dawkins
-    org: Tencent America LLC
-    country: United States of America
-    email: spencerdawkins.ietf@gmail.com
+    email: kiran.ietf@gmail.com
 
 informative:
   CVNI:
