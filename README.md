@@ -1,11 +1,8 @@
 # Requirements Considerations for Flexible IoT Device Addressing
 
-This is the working area for the IETF [FLEXADRESS Working Group](https://datatracker.ietf.org/wg/flexadress/documents/) Internet-Draft, "Requirements Considerations for Flexible IoT Device Addressing".
+This is the working copy of proposed flex addressing in Working area for the IETF possible - INTAREA Draft, "Requirements Considerations for Flexible IoT Device Addressing".
 
-* [Editor's Copy](https://kiranmak.github.io/draft-ietf-flexaddress-requirements/#go.draft-ietf-flexadress-requirements.html)
-* [Working Group Draft](https://tools.ietf.org/html/draft-ietf-flexadress-requirements)
-* [Compare Editor's Copy to Working Group Draft](https://kiranmak.github.io/draft-ietf-flexaddress-requirements/#go.draft-ietf-flexadress-requirements.diff)
-
+* [Editor's Copy](https://kiranmak.github.io/draft-ietf-flexaddress-requirements/draft-ietf-flexadress-requirements.html)
 ## Building the Draft
 
 Formatted text and HTML versions of the draft can be built using `make`.
