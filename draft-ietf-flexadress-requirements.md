@@ -1,7 +1,7 @@
 ---
-title: Requirements Considerations for Flexible IoT Device Addressing 
+title: Requirements Considerations for Flexible Industry Control Device Addressing 
 abbrev: FlexAddr 
-docname: draft-ietf-flexaddress-requirements-latest
+docname: draft-ietf-flexaddress-requirements-00
 date: 2021-04-25
 category: info
 
@@ -24,19 +24,12 @@ author:
     email: kiran.ietf@gmail.com
 
 informative:
-  PCC:
-    target: https://ieeexplore.ieee.org/document/8571288
-    title: "Emerging MPEG Standards for Point Cloud Compression"
-    author:
-      -
-        name: Sebastian Schwarz et al.
-    date: Mar. 2019
   RFC8799:
 
 --- abstract
 
-Industry Control Networks are classified as limited-domains because their scope is limited to a controlled network
-environment Such networks host a a diverse set of non Internet protocol for use use. The industrial networks
+Industry Control Networks are classified as limited-domains because their scope is with in a controlled 
+environment. Such networks host a diverse set of non internet protocols for different purposes. As the industry automation  industrial networks
 demand their own specific requirements to operate between Internet and non-Internet protocols. One particular problem is the
 figuring out address space for such networks.
 
@@ -45,9 +38,13 @@ figuring out address space for such networks.
 # Introduction {#intro}
 
 Industry control networks are increasingly becoming complex as the emphasis on convergence of OT/IT 
-grows. Operational Technologies networks are tied to set of non-Internet protocols such as 
-Modbus, Profibus, CANbus, Profines, etc.
+grows. Operational Technologies (OT) networks are tied to set of non-Internet protocols such as 
+Modbus, Profibus, CANbus, Profines, etc. There are more than 100 different protocols with its own packet format. Whiel it is important to understand and generalize the data
+such networks are LDNs {{RFC8799}}.
 
+
+# Use case Development {#usecase}
+type of industry control network.
 
 # Analysis {#analysis}
 ## Issue 1
@@ -87,7 +84,7 @@ This document introduces no new security issues.
 
 #Acknowledgements
 
-Thanks to Mark Nottingham, Glenn Deen, Dave Oran, Aaron Falk, Kyle Rose, Leslie Daigle, Lucas Pardue, Matt Stock, Alexandre Gouaillard, and Mike English for their very helpful reviews and comments.
+Thanks to ---.
 
 --- back
 
