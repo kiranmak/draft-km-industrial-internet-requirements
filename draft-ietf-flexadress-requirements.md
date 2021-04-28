@@ -39,8 +39,7 @@ figuring out address space for such networks.
 
 Industry control networks are increasingly becoming complex as the emphasis on convergence of OT/IT 
 grows. Operational Technologies (OT) networks are tied to set of non-Internet protocols such as 
-Modbus, Profibus, CANbus, Profines, etc. There are more than 100 different protocols with its own packet format. Whiel it is important to understand and generalize the data
-such networks are LDNs {{RFC8799}}.
+Modbus, Profibus, CANbus, Profinet, etc. There are more than 100 different protocols with its own packet format. With a greater need to integrate IT-centric applications to drive industry control, there is a need to discuss different types of requirements emerging for such a cause. A key property of the industry control network must be preserved that they continue to operate in their own private environment. It implies that an integration with IT-centric protocols should not be restrictive to the use of applications belonging to Industry control networks. From the Internet technologies perspective, this get identified as  a limited-domain network (LDNs) {{RFC8799}}.
 
 
 # Use case Development {#usecase}
@@ -54,7 +53,7 @@ type of industry control network.
  * a short description of the nature of the issue and its impact on media quality of service, including:
    * where in the network this issue has root causes
    * who can detect this issue when it occurs
-## Prevalence Practics
+## Prevalence Practices
  * an overview of the issue's known prevalence in practice.  pointers to write-ups of high-profile incidents are a plus.
  * a list of known mitigation techniques, with (for each known mitigation):
    * a name for the mitigation technique
