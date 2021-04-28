@@ -41,6 +41,10 @@ Industry control networks are increasingly becoming complex as the emphasis on c
 grows. Operational Technologies (OT) networks are tied to set of non-Internet protocols such as 
 Modbus, Profibus, CANbus, Profinet, etc. There are more than 100 different protocols with its own packet format. With a greater need to integrate IT-centric applications to drive industry control, there is a need to discuss different types of requirements emerging for such a cause. A key property of the industry control network must be preserved that they continue to operate in their own private environment. It implies that an integration with IT-centric protocols should not be restrictive to the use of applications belonging to Industry control networks. From the Internet technologies perspective, this get identified as  a limited-domain network (LDNs) {{RFC8799}}.
 
+# Terminology
+* Industrial Control Networks
+The indutrial control networks are  interconnection of equipments used for the operation, control or monitoring of machines in the industry environment.
+* Industry Automation
 
 # Use case Development {#usecase}
 type of industry control network.
