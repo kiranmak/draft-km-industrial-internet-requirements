@@ -29,9 +29,8 @@ informative:
 --- abstract
 
 Industry Control Networks are classified as limited-domains because their scope is with in a controlled 
-environment. Such networks host a diverse set of non internet protocols for different purposes. As the industry automation  industrial networks
-demand their own specific requirements to operate between Internet and non-Internet protocols. One particular problem is the
-figuring out address space for such networks.
+environment. Such networks host a diverse set of non internet protocols for different purposes. As the automation in industrial control networks
+is necessary and draws significant interest with regards to communications between the IP world applications and their non-IP counterparts in industrial controllers and actuators. One particular problem is figuring out reachability between the two types of machines which depends on the address space designed for such networks.
 
 --- middle
 
@@ -39,7 +38,8 @@ figuring out address space for such networks.
 
 Industry control networks are increasingly becoming complex as the emphasis on convergence of OT/IT 
 grows. Operational Technologies (OT) networks are tied to set of non-Internet protocols such as 
-Modbus, Profibus, CANbus, Profinet, etc. There are more than 100 different protocols with its own packet format. With a greater need to integrate IT-centric applications to drive industry control, there is a need to discuss different types of requirements emerging for such a cause. A key property of the industry control network must be preserved that they continue to operate in their own private environment. It implies that an integration with IT-centric protocols should not be restrictive to the use of applications belonging to Industry control networks. From the Internet technologies perspective, this get identified as  a limited-domain network (LDNs) {{RFC8799}}.
+Modbus, Profibus, CANbus, Profinet, etc. There are more than 100 different protocols with its own packet format. Majority of them are not IP based. With a greater need to integrate IT-centric applications to drive automation in industry control, there is a need to discuss different types of requirements emerging for such initiative. The operations in industrial networks are often driven by HMI (exchange of information between a human operator and a machine  using a software component). Devices in industrial control networks are different from the IoT in terms of its range, type of operations and the scope. 
+Most industrial operations have custom built application, management software suitable for their own vertical domain.  A key property of the industry control network is their own private environment.The Internet technologies identifies them as a limited-domain network (LDNs) {{RFC8799}}. So far, IT and OT networks have evovled seperately, but now to integrate with emerging IT applications and services, for Machine-type communications, the protocols should provide means to integrate with  IIoT. 
 
 # Terminology
 * Industrial Control Networks
