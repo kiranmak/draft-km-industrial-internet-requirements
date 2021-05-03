@@ -8,9 +8,8 @@
 <meta content="Kiran Makhijani" name="author">
 <meta content="
        Industry Control Networks are classified as limited-domains because their scope is with in a controlled 
-environment. Such networks host a diverse set of non internet protocols for different purposes. As the industry automation  industrial networks
-demand their own specific requirements to operate between Internet and non-Internet protocols. One particular problem is the
-figuring out address space for such networks. 
+environment. Such networks host a diverse set of non internet protocols for different purposes. As the automation in industrial control networks
+is necessary and draws significant interest with regards to communications between the IP world applications and their non-IP counterparts in industrial controllers and actuators. One particular problem is figuring out reachability between the two types of machines which depends on the address space designed for such networks. 
     " name="description">
 <meta content="xml2rfc 3.7.0" name="generator">
 <meta content="Internet-Draft" name="keyword">
@@ -857,9 +856,8 @@ address div.right {
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
 <p id="section-abstract-1">Industry Control Networks are classified as limited-domains because their scope is with in a controlled 
-environment. Such networks host a diverse set of non internet protocols for different purposes. As the industry automation  industrial networks
-demand their own specific requirements to operate between Internet and non-Internet protocols. One particular problem is the
-figuring out address space for such networks.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+environment. Such networks host a diverse set of non internet protocols for different purposes. As the automation in industrial control networks
+is necessary and draws significant interest with regards to communications between the IP world applications and their non-IP counterparts in industrial controllers and actuators. One particular problem is figuring out reachability between the two types of machines which depends on the address space designed for such networks.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-discussion-venues">
@@ -919,45 +917,45 @@ figuring out address space for such networks.<a href="#section-abstract-1" class
         <a href="#" onclick="scroll(0,0)" class="toplink">▲</a><h2 id="name-table-of-contents">
 <a href="#name-table-of-contents" class="section-name selfRef">Table of Contents</a>
         </h2>
-<nav class="toc"><ul class="toc compact ulEmpty">
-<li class="toc compact ulEmpty" id="section-toc.1-1.1">
+<nav class="toc"><ul class="ulEmpty compact toc">
+<li class="ulEmpty compact toc" id="section-toc.1-1.1">
             <p id="section-toc.1-1.1.1" class="keepWithNext"><a href="#section-1" class="xref">1</a>.  <a href="#name-introduction" class="xref">Introduction</a></p>
 </li>
-          <li class="toc compact ulEmpty" id="section-toc.1-1.2">
+          <li class="ulEmpty compact toc" id="section-toc.1-1.2">
             <p id="section-toc.1-1.2.1" class="keepWithNext"><a href="#section-2" class="xref">2</a>.  <a href="#name-terminology" class="xref">Terminology</a></p>
 </li>
-          <li class="toc compact ulEmpty" id="section-toc.1-1.3">
+          <li class="ulEmpty compact toc" id="section-toc.1-1.3">
             <p id="section-toc.1-1.3.1" class="keepWithNext"><a href="#section-3" class="xref">3</a>.  <a href="#name-use-case-development" class="xref">Use case Development</a></p>
 </li>
-          <li class="toc compact ulEmpty" id="section-toc.1-1.4">
+          <li class="ulEmpty compact toc" id="section-toc.1-1.4">
             <p id="section-toc.1-1.4.1"><a href="#section-4" class="xref">4</a>.  <a href="#name-analysis" class="xref">Analysis</a></p>
-<ul class="toc compact ulEmpty">
-<li class="toc compact ulEmpty" id="section-toc.1-1.4.2.1">
+<ul class="ulEmpty compact toc">
+<li class="ulEmpty compact toc" id="section-toc.1-1.4.2.1">
                 <p id="section-toc.1-1.4.2.1.1"><a href="#section-4.1" class="xref">4.1</a>.  <a href="#name-scope-address-space" class="xref">Scope Address Space</a></p>
 </li>
             </ul>
 </li>
-          <li class="toc compact ulEmpty" id="section-toc.1-1.5">
+          <li class="ulEmpty compact toc" id="section-toc.1-1.5">
             <p id="section-toc.1-1.5.1"><a href="#section-5" class="xref">5</a>.  <a href="#name-requirements" class="xref">Requirements</a></p>
-<ul class="toc compact ulEmpty">
-<li class="toc compact ulEmpty" id="section-toc.1-1.5.2.1">
+<ul class="ulEmpty compact toc">
+<li class="ulEmpty compact toc" id="section-toc.1-1.5.2.1">
                 <p id="section-toc.1-1.5.2.1.1"><a href="#section-5.1" class="xref">5.1</a>.  <a href="#name-requirement-identifier" class="xref">Requirement identifier</a></p>
 </li>
             </ul>
 </li>
-          <li class="toc compact ulEmpty" id="section-toc.1-1.6">
+          <li class="ulEmpty compact toc" id="section-toc.1-1.6">
             <p id="section-toc.1-1.6.1"><a href="#section-6" class="xref">6</a>.  <a href="#name-iana-considerations" class="xref">IANA Considerations</a></p>
 </li>
-          <li class="toc compact ulEmpty" id="section-toc.1-1.7">
+          <li class="ulEmpty compact toc" id="section-toc.1-1.7">
             <p id="section-toc.1-1.7.1"><a href="#section-7" class="xref">7</a>.  <a href="#name-security-considerations" class="xref">Security Considerations</a></p>
 </li>
-          <li class="toc compact ulEmpty" id="section-toc.1-1.8">
+          <li class="ulEmpty compact toc" id="section-toc.1-1.8">
             <p id="section-toc.1-1.8.1"><a href="#section-8" class="xref">8</a>.  <a href="#name-acknowledgements" class="xref">Acknowledgements</a></p>
 </li>
-          <li class="toc compact ulEmpty" id="section-toc.1-1.9">
+          <li class="ulEmpty compact toc" id="section-toc.1-1.9">
             <p id="section-toc.1-1.9.1"><a href="#section-9" class="xref">9</a>.  <a href="#name-informative-references" class="xref">Informative References</a></p>
 </li>
-          <li class="toc compact ulEmpty" id="section-toc.1-1.10">
+          <li class="ulEmpty compact toc" id="section-toc.1-1.10">
             <p id="section-toc.1-1.10.1"><a href="#section-appendix.a" class="xref"></a><a href="#name-authors-address" class="xref">Author's Address</a></p>
 </li>
         </ul>
@@ -971,7 +969,8 @@ figuring out address space for such networks.<a href="#section-abstract-1" class
       </h2>
 <p id="section-1-1">Industry control networks are increasingly becoming complex as the emphasis on convergence of OT/IT 
 grows. Operational Technologies (OT) networks are tied to set of non-Internet protocols such as 
-Modbus, Profibus, CANbus, Profinet, etc. There are more than 100 different protocols with its own packet format. With a greater need to integrate IT-centric applications to drive industry control, there is a need to discuss different types of requirements emerging for such a cause. A key property of the industry control network must be preserved that they continue to operate in their own private environment. It implies that an integration with IT-centric protocols should not be restrictive to the use of applications belonging to Industry control networks. From the Internet technologies perspective, this get identified as  a limited-domain network (LDNs) <span>[<a href="#RFC8799" class="xref">RFC8799</a>]</span>.<a href="#section-1-1" class="pilcrow">¶</a></p>
+Modbus, Profibus, CANbus, Profinet, etc. There are more than 100 different protocols with its own packet format. Majority of them are not IP based. With a greater need to integrate IT-centric applications to drive automation in industry control, there is a need to discuss different types of requirements emerging for such initiative. The operations in industrial networks are often driven by HMI (exchange of information between a human operator and a machine  using a software component). Devices in industrial control networks are different from the IoT in terms of its range, type of operations and the scope. 
+Most industrial operations have custom built application, management software suitable for their own vertical domain.  A key property of the industry control network is their own private environment.The Internet technologies identifies them as a limited-domain network (LDNs) <span>[<a href="#RFC8799" class="xref">RFC8799</a>]</span>. So far, IT and OT networks have evovled seperately, but now to integrate with emerging IT applications and services, for Machine-type communications, the protocols should provide means to integrate with  IIoT.<a href="#section-1-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="terminology">
