@@ -485,9 +485,9 @@ Internet-Draft                  FlexAddr                        May 2021
               <https://www.rfc-editor.org/info/rfc8799>.
 
    [SURV]     Galloway, B. and G. Hancke, "Introduction to Industrial
-              Control Networks", IEEE Communications Surveys &
-              Tutorials Vol. 15, pp. 860-880,
-              DOI 10.1109/surv.2012.071812.00124, 2013,
+              Control Networks", DOI 10.1109/surv.2012.071812.00124,
+              IEEE Communications Surveys & Tutorials Vol. 15, pp.
+              860-880, 2013,
               <https://doi.org/10.1109/surv.2012.071812.00124>.
 
 Author's Address
