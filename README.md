@@ -1,8 +1,10 @@
-# Requirements Considerations for Flexible IoT Device Addressing
+# Requirements and Scenarios for Industry Internet Addressing
 
-This is the working copy of proposed flex addressing in Working area for the IETF possible - INTAREA Draft, "Requirements Considerations for Flexible IoT Device Addressing".
+This is the working area for the individual Internet-Draft, "Requirements and Scenarios for Industry Internet Addressing".
 
-* [Editor's Copy](https://kiranmak.github.io/draft-km-industrial-internet-requirements/draft-km-industrial-internet-requirements.html
+* [Editor's Copy](https://kiranmak.github.io/draft-km-industrial-internet-requirements/#go.draft-km-industrial-internet-requirements.html)
+* [Individual Draft](https://tools.ietf.org/html/draft-km-industrial-internet-requirements)
+* [Compare Editor's Copy to Individual Draft](https://kiranmak.github.io/draft-km-industrial-internet-requirements/#go.draft-km-industrial-internet-requirements.diff)
 
 ## Building the Draft
 
@@ -19,4 +21,4 @@ This requires that you have the necessary software installed.  See
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/kiranmak/draft-ietf-flexaddress-requirements/blob/main/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/kiranmak/draft-km-industrial-internet-requirements/blob/main/CONTRIBUTING.md).
