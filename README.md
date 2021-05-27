@@ -2,7 +2,7 @@
 
 This is the working area for the individual Internet-Draft, "Requirements and Scenarios for Industry Internet Addressing".
 
-* [Editor's Copy](https://kiranmak.github.io/draft-km-industrial-internet-requirements/#go.draft-km-industrial-internet-requirements.html)
+* [Editor's Copy](https://kiranmak.github.io/draft-km-industrial-internet-requirements/draft-km-industrial-internet-requirements.html)
 * [Individual Draft](https://tools.ietf.org/html/draft-km-industrial-internet-requirements)
 * [Compare Editor's Copy to Individual Draft](https://kiranmak.github.io/draft-km-industrial-internet-requirements/#go.draft-km-industrial-internet-requirements.diff)
 
